@@ -75,6 +75,9 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+            <img style={{ width: "20px", marginTop : "18px" }} src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=yfcmut3918kkkpak1ctf3pkslc3jbmb6" border="0" title="contador de visitas" alt="contador de visitas"/>
+            </Nav.Item> 
           </Nav>
         </Navbar.Collapse>
       </Container>
