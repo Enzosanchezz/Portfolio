@@ -11,7 +11,7 @@ import {
   AiOutlineDownload,
 } from "react-icons/ai";
 
-const CV = "/CV/myCV.pdf"
+const CV = "/CV/CV ENZO GABRIEL SANCHEZ.pdf"
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
