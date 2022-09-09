@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />
               <i>
-                I have also participated in several and have applied my aforementioned skills in a competitive environment.
+              I have also participated in several projects and have applied my aforementioned skills in a competitive environment.
               </i>
               <br />
               <br />

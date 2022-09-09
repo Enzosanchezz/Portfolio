@@ -8,8 +8,10 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineDownload,
 } from "react-icons/ai";
 
+const CV = "/CV/myCV.pdf"
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -74,6 +76,14 @@ function NavBar() {
                 />{" "}
                 Projects
               </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>       
+                  <button  className={`btn`} style={{color: "white", marginBottom: "3px" , fontSize: "19.2px", padding: "12.8px 16px"}}>
+                        <a  style={{ textDecoration: "none", color: "white",}} href={CV} target="_blank" rel="noopener noreferrer" download="CV ENZO GABRIEL SANCHEZ.pdf" > 
+                      <AiOutlineDownload style={{ color: "white", marginBottom: "2px" }} />{" "}
+                       CV
+                        </a>
+                  </button>  
             </Nav.Item>
             <Nav.Item>
             <img style={{ width: "20px", marginTop : "18px" }} src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=yfcmut3918kkkpak1ctf3pkslc3jbmb6" border="0" title="contador de visitas" alt="contador de visitas"/>
