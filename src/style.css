@@ -1,15 +1,21 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgb(2, 50, 94),
+    rgba(0,0,0)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgb(2, 50, 94),
+    rgb(0, 0, 0)
   );
+  --image-gradient-about: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 0),
+    rgb(2, 50, 94)
+  );
+
 
   --imp-text-color: #40AABF;
 }
@@ -76,9 +82,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #0D1A26 !important;
+  background-color: #06090cc5 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px #0D1A26 !important;
+  box-shadow: 0px 10px 10px 0px #010e2788 !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -257,7 +263,8 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  background-image: var(--image-gradient);
+  /* url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -321,6 +328,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-image: var(--image-gradient-about);
 }
 
 .home-about-description {
@@ -402,7 +410,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(0, 1, 12);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
